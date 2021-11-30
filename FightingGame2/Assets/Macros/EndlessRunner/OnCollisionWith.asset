@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnCollisionWith
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"target","label":null,"summary":null,"hideLabel":false},{"key":"other","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"tag","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"UnityEngine.GameObject","key":"object","label":"","summary":null,"hideLabel":false}],"title":"Collision
+      Super Unit","summary":"Return True if Collide with Player","pan":{"x":131.5572,"y":-18.43043},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Player","$type":"System.String"}},"position":{"x":11.0,"y":25.0},"guid":"bcac01ce-1d39-465f-9352-e7b36b9f8dd3","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"defaultValues":{},"position":{"x":214.0,"y":-175.0},"guid":"4a58f478-11c3-4555-86ae-2ed1548eba2e","$version":"A","$type":"Bolt.Branch","$id":"16"},{"defaultValues":{},"position":{"x":-143.0,"y":67.0},"guid":"d0c03769-effe-4fc1-8c1b-4f1114d4fc41","$version":"A","$type":"Bolt.GraphInput","$id":"18"},{"defaultValues":{},"position":{"x":453.0,"y":-70.0},"guid":"fda1f6cb-5663-49f3-b58b-575e0966f0cd","$version":"A","$type":"Bolt.GraphOutput","$id":"20"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-234.0,"y":-176.0},"guid":"377d4212-26b7-4435-bec3-e3f8a903ce61","$version":"A","$type":"Bolt.OnTriggerEnter2D","$id":"22"},{"sourceUnit":{"$ref":"16"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"20"},"destinationKey":"target","guid":"2dbebeab-d962-4946-ac44-20fca47acdcf","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"20"},"destinationKey":"other","guid":"9140a536-52ef-4cbc-ab21-96ba347587f3","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"7cbdf2ac-a11c-4e7d-bc3a-484dc6de5919","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"result","destinationUnit":{"$ref":"16"},"destinationKey":"condition","guid":"e99afdb5-f950-41f7-b08a-45b58fe5f76c","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"tag","destinationUnit":{"$ref":"13"},"destinationKey":"%tag","guid":"fcbabbae-9748-485e-aa9f-2789027abc37","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"collider","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"4dc619fd-f94a-4123-96a0-c51e0769de68","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"collider","destinationUnit":{"$ref":"20"},"destinationKey":"object","guid":"2ad46f1c-67ef-4121-9dc9-e749808a3d4d","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

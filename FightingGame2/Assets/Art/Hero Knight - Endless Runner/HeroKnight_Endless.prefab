@@ -16,10 +16,10 @@ GameObject:
   - component: {fileID: 1632171720304688735}
   - component: {fileID: 5575211132859438900}
   - component: {fileID: 2054780101371998704}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HeroKnight_Endless
   m_TagString: Player
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"jumpStrength","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"Animator","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"playerGrounded","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"airSpeed","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"jumpStrength","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"Animator","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2655505060201611074}
 --- !u!114 &5575211132859438900
